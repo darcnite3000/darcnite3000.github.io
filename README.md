@@ -6,7 +6,7 @@
 
 **Mobile:** +61431071276<br>
 **Email:** darcnite3000@gmail.com<br>
-**LinkedIn:** https://www.linkedin.com/in/tristan-smith-b0a03415b/<br>
+**LinkedIn:** https://www.linkedin.com/in/tristan-smith45/<br>
 **GitHub:** https://github.com/darcnite3000/<br>
 **Skype:** tristan_smith45<br>
 
