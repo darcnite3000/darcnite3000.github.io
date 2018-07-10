@@ -4,6 +4,7 @@
 
 **Tristan Smith**
 
+**Mobile:** +61431071276<br>
 **Email:** darcnite3000@gmail.com<br>
 **LinkedIn:** https://www.linkedin.com/in/tristan-smith-b0a03415b/<br>
 **GitHub:** https://github.com/darcnite3000/<br>
@@ -30,30 +31,30 @@ Recently I migrated all the sites for the GunzBlazing from an old Mansion CMS, t
 
 Throughout my work with Bazar Studios I have used in production, or for backend tools.
 
-- Flash - using AS2 and AS3
-- Perl - fixing broken mailing scripts
-- HTML/CSS - from Table layouts to Divs and Flex, including HTML Email, responsive layouts and SVG.
-- PHP - SQL communication, Dynamic Pages, Image Creation, Emails and CURL requests
-- Javascript - for all manners of AJAX communication and DOM manipulation (with and without jQuery) inlcuding and entire pack system
-- Node.JS - for creating simple use tools such as my Auto-Mail script
-- NPM, Bower, Composer - for the including of open source libraries
-- Browserify, Babel - for transpilation to browser compatible code
-- Webpack, Gulp, Poi - for managing tasks and transpilations for JS/CSS
-- Sass - the Scss variation
-- PostCSS - for CSSNext, Autoprefixer and Font-Magician
-- Ruby - for RubyOnRails, Compass and for a page scraper allong with Phantom
-- Compass, Neat, Bourbon - for cross browser compatible Sass Mixins
-- Coffeescript
-- jQuery, jQuery-UI, jQuery-Mobile
-- BackboneJS - for small modules
-- KnockoutJS - for small modules and as part of a Durandal project
-- AngularJS - for small modules
-- Durandal
-- VueJS - for two websites one using the JSX method and one with Vue templates
-- React - for a drag and drop proof of concept for a possible client
-- Joomla, Wordpress, Magento, Shopify - for various small sites
-- Drupal 7 - for multiple Video Member sites
-- Drupal Commerce - for merchandise and the sale of downloads via licenses and credits
+- __Flash__ - using AS2 and AS3
+- __Perl__ - fixing broken mailing scripts
+- __HTML/CSS__ - from Table layouts to Divs and Flex, including HTML Email, responsive layouts and SVG.
+- __PHP__ - SQL communication, Dynamic Pages, Image Creation, Emails and CURL requests
+- __Javascript__ - for all manners of AJAX communication and DOM manipulation (with and without jQuery) inlcuding and entire pack system
+- __Node.JS__ - for creating simple use tools such as my Auto-Mail script
+- __NPM, Bower, Composer__ - for the including of open source libraries
+- __Browserify, Babel__ - for transpilation to browser compatible code
+- __Webpack, Gulp, Poi__ - for managing tasks and transpilations for JS/CSS
+- __Sass__ - the Scss variation
+- __PostCSS__ - for CSSNext, Autoprefixer and Font-Magician
+- __Ruby__ - for RubyOnRails, Compass and for a page scraper allong with Phantom
+- __Compass, Neat, Bourbon__ - for cross browser compatible Sass Mixins
+- __Coffeescript__ - as a replacment to js code before es6
+- __jQuery__, jQuery-UI, jQuery-Mobile
+- __BackboneJS__ - for small modules
+- __KnockoutJS__ - for small modules and as part of a Durandal project
+- __AngularJS__ - for small modules and a possible rewrite of the pack system
+- __Durandal__ - for an as of yet unreleased project
+- __VueJS__ - for two websites one using the JSX method and one with Vue templates
+- __React__ - for back-end tools, a possible site update and for a drag and drop proof of concept for a possible client
+- __Joomla, Wordpress, Magento, Shopify__ - for various small sites
+- __Drupal 7__ - for multiple Video Member sites
+- __Drupal Commerce__ - for merchandise and the sale of downloads via licenses and credits
 
 ## Further Learning
 
@@ -68,6 +69,32 @@ I'm a bit of a console gamer as I have a Switch, a PS4 and an XBOX and often get
 I'm also a bit of a reader and can say I have read all of R. E. Feists. Magician books, and I am currently reading his latest book now.
 
 I am also a Referee for Football Far North Coast, and will likely continue refereeing football (soccer) wherever I move, as I recently got back into this as a method of keeping fit.
+
+## Professional Skills
+- __PHP:__ Advanced
+- __HTML:__ Expert
+- __CSS:__ Advanced
+- __Javascript:__ Advanced
+- __Node:__ Intermediate
+- __React:__ Advanced
+- __VueJS:__ Intermediate
+- __AngularJS:__ Intermediate
+- __KockoutJS:__ Advanced
+- __EmberJS:__ Beginner
+- __Ruby:__ Intermediate
+- __Ruby on Rails:__ Intermediate
+- __MySQL:__ Advanced
+- __PostgreSQL:__ Intermediate
+- __Mongo:__ Intermediate
+- __Go:__ Intermediate
+- __WordPress:__ Intermediate
+- __Drupal:__ Advanced
+- __Flash:__ Advanced
+- __Perl:__ Intermediate
+
+## Languages
+- __English:__ Native
+
 
 ## References
 
