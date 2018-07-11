@@ -25,10 +25,13 @@ const App = () => (
               <a href="/my_resume.pdf" title="Resume" download>
                 <ion-icon name="download" />R&#233;sum&#233;
               </a>
-              <a href="https://www.linkedin.com/in/tristan-smith45/">
+              <a
+                href="https://www.linkedin.com/in/tristan-smith45/"
+                target="_blank"
+              >
                 <ion-icon name="logo-linkedin" />
               </a>
-              <a href="https://github.com/darcnite3000/">
+              <a href="https://github.com/darcnite3000/" target="_blank">
                 <ion-icon name="logo-github" />
               </a>
             </nav>
@@ -53,10 +56,13 @@ const App = () => (
               <a href="mail:darcnite3000@gmail.com">
                 <ion-icon name="mail" /> darcnite3000@gmail.com
               </a>
-              <a href="https://www.linkedin.com/in/tristan-smith45/">
+              <a
+                href="https://www.linkedin.com/in/tristan-smith45/"
+                target="_blank"
+              >
                 <ion-icon name="logo-linkedin" /> tristan-smith45
               </a>
-              <a href="https://github.com/darcnite3000/">
+              <a href="https://github.com/darcnite3000/" target="_blank">
                 <ion-icon name="logo-github" /> darcnite3000
               </a>
               <a href="skype:tristan_smith45">
