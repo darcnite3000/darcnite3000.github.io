@@ -12,6 +12,11 @@ const App = () => (
     <header>
       <h1>Tristan Smith</h1>
       <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#work">Work</a>
+        <a href="#hobbies-interests">Hobbies/Interests</a>
+        <a href="#professional-skills">Skills</a>
         <a href="https://www.linkedin.com/in/tristan-smith45/">
           <ion-icon name="logo-linkedin" />
         </a>
