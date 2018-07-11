@@ -6,7 +6,7 @@
   "author": "Tristan Smith <darcnite3000@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode=production",
+    "build": "webpack --config webpack.build.config.js",
     "start": "webpack-dev-server --mode=development"
   },
   "devDependencies": {
@@ -19,6 +19,7 @@
     "css-loader": "^1.0.0",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^2.1.6",
+    "prerender-spa-plugin": "^3.2.1",
     "prettier": "^1.13.7",
     "style-loader": "^0.21.0",
     "webpack": "^4.15.1",

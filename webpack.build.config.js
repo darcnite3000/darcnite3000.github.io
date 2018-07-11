@@ -1,7 +1,9 @@
 const path = require('path')
+const PrerenderSPAPlugin = require('prerender-spa-plugin')
 
 module.exports = {
   entry: './app/index.js',
+  mode: 'production',
   output: {
     path: path.join(__dirname),
     filename: 'bundle.js'
@@ -24,5 +26,18 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  plugins: [
+    new PrerenderSPAPlugin({
+      staticDir: path.join(__dirname, '.'),
+      indexPath: path.join(__dirname, 'indexTemplate.html'),
+      routes: [
+        '/',
+        '/education',
+        '/work',
+        '/hobbies-interests',
+        '/professional-skills'
+      ]
+    })
+  ]
 }

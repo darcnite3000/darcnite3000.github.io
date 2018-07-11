@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from 'react-dom'
+import { hydrate } from 'react-dom'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import './app.css'
@@ -70,4 +70,4 @@ const App = () => (
   </Router>
 )
 
-render(<App />, document.getElementById('app'))
+hydrate(<App />, document.getElementById('app'))
