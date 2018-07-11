@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  border: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  max-width: 970px;
+  margin: auto;
+  & nav {
+    display: flex;
+    margin-left: auto;
+  }
+}
+
+#body {
+  padding: 1em;
+  max-width: 970px;
+  margin: auto;
+}
+
+#contact .list {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  & ion-icon {
+    margin-right: 0.25em;
+  }
+}
