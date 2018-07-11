@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 const levels = ['Beginner', 'Intermediate', 'Advanced', 'Expert']
 const skillList = [
@@ -24,17 +24,53 @@ const skillList = [
   { skill: 'Perl', level: 2 }
 ]
 
-const Skills = () => (
-  <div id="professional-skills">
-    <h2>Professional Skills</h2>
-    <ul>
-      {skillList.map(({ skill, level }) => (
-        <li key={skill}>
-          <b>{skill}:</b> {levels[level]}
-        </li>
-      ))}
-    </ul>
-  </div>
-)
+const Stars = ({ count, isOver = false }) => {
+  let starGroup = []
+  for (let i = 0; i < 4; i++) {
+    if (i < count) {
+      starGroup.push('star')
+    } else {
+      starGroup.push('star-outline')
+    }
+  }
+  return (
+    <div className="stars">
+      {isOver
+        ? levels[count - 1]
+        : starGroup.map((name, i) => <ion-icon key={i} name={name} />)}
+    </div>
+  )
+}
+let over = null
+class Skills extends Component {
+  state = {
+    skill: ''
+  }
+  handleOver = skill => event => {
+    this.setState({ skill })
+  }
+  handleOut = event => {
+    this.setState({ skill: '' })
+  }
+  render() {
+    return (
+      <div id="professional-skills">
+        <h2>Professional Skills</h2>
+        <ul className="skill-list">
+          {skillList.map(({ skill, level }) => (
+            <li
+              key={skill}
+              onMouseEnter={this.handleOver(skill)}
+              onMouseLeave={this.handleOut}
+            >
+              <b>{skill}:</b>{' '}
+              <Stars count={level} isOver={skill === this.state.skill} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+}
 
 export default Skills

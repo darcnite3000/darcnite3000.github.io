@@ -1,13 +1,19 @@
-html,
-body {
-  margin: 0;
-  border: 0;
-}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
+html,
+body {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #9cc0f9;
+}
+
 a {
   color: inherit;
   display: inline-flex;
@@ -18,13 +24,22 @@ a {
 }
 
 header {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 1em;
   max-width: 970px;
   margin: auto;
+  & h1 {
+    font-family: 'Alegreya';
+    display: flex;
+    align-items: center;
+  }
   & nav {
+    font-family: 'Quattrocento Sans';
+    font-size: 1.1em;
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
@@ -35,15 +50,25 @@ header {
 }
 
 #body {
+  font-family: 'Merriweather';
+  position: relative;
+  z-index: 1;
   padding: 1em;
   max-width: 970px;
   margin: auto;
+  & h2,
+  & h3 {
+    font-family: 'Alegreya';
+  }
   & > * {
     max-width: 940px;
   }
 }
 
 footer {
+  font-family: 'Quattrocento Sans';
+  position: relative;
+  z-index: 1;
   padding: 1em;
   max-width: 970px;
   margin: auto;
@@ -62,6 +87,16 @@ footer {
   }
 }
 
+.face {
+  border-style: solid;
+  border-width: 5px;
+  border-color: gainsboro;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 15px;
+}
+
 .fade-enter {
   opacity: 0.01;
   position: absolute;
@@ -76,4 +111,22 @@ footer {
 .fade-exit-active {
   opacity: 0.01;
   transition: opacity 200ms ease-in;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.stars {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25em;
+}
+.skill-list li {
+  display: flex;
+  align-items: center;
+  height: 2em;
 }
