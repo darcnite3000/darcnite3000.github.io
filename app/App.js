@@ -63,24 +63,27 @@ class App extends Component {
             </TransitionGroup>
             <footer>
               <div className="contact-list">
-                <span>ABN: 7425 260 4937</span>
+                <span>
+                  <ion-icon name="business" title="ABN" /> 7425 260 4937
+                </span>
                 <a href="tel:+61431071276">
-                  <ion-icon name="call" /> +61 431 071 276
+                  <ion-icon name="call" title="Mobile" /> +61 431 071 276
                 </a>
                 <a href="mail:darcnite3000@gmail.com">
-                  <ion-icon name="mail" /> darcnite3000@gmail.com
+                  <ion-icon name="mail" title="Email" /> darcnite3000@gmail.com
                 </a>
                 <a
                   href="https://www.linkedin.com/in/tristan-smith45/"
                   target="_blank"
                 >
-                  <ion-icon name="logo-linkedin" /> tristan-smith45
+                  <ion-icon name="logo-linkedin" title="LinkedIn" />{' '}
+                  tristan-smith45
                 </a>
                 <a href="https://github.com/darcnite3000/" target="_blank">
-                  <ion-icon name="logo-github" /> darcnite3000
+                  <ion-icon name="logo-github" title="GitHub" /> darcnite3000
                 </a>
                 <a href="skype:tristan_smith45">
-                  <ion-icon name="logo-skype" /> tristan_smith45
+                  <ion-icon name="logo-skype" title="Skype" /> tristan_smith45
                 </a>
               </div>
             </footer>

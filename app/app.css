@@ -81,6 +81,8 @@ footer {
   padding: 1em;
   & > * {
     padding: 0.2em;
+    display: inline-flex;
+    align-items: center;
   }
   & ion-icon {
     margin-right: 0.2em;
