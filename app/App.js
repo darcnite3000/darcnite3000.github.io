@@ -63,6 +63,7 @@ class App extends Component {
             </TransitionGroup>
             <footer>
               <div className="contact-list">
+                <span>ABN: 7425 260 4937</span>
                 <a href="tel:+61431071276">
                   <ion-icon name="call" /> +61 431 071 276
                 </a>
