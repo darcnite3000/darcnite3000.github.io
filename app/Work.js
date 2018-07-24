@@ -3,6 +3,13 @@ import React from 'react'
 const Work = () => (
   <div id="work">
     <h2>Work</h2>
+    <div id="contracting">
+      <h3>Sole Trader Web Developer - 2018/Present</h3>
+      <p>
+        On the 23rd of July, I set myself up with an ABN so that I could do
+        small Contract Work on web projects.
+      </p>
+    </div>
     <div id="bazar-studios">
       <h3>Bazar Studios - 2006/18</h3>
       <div id="bazar-studios-synopsis">
