@@ -31,14 +31,15 @@ class App extends Component {
                 <span>Tristan Smith</span>
               </h1>
               <nav>
-                <Link to="/">About Me</Link>
+                <Link to="/">About</Link>
                 <Link to="/freelance">Freelance</Link>
                 <Link to="/education">Education</Link>
                 <Link to="/work">Work</Link>
-                <Link to="/hobbies-interests">Hobbies/Interests</Link>
+                <Link to="/hobbies-interests">Interests</Link>
                 <Link to="/professional-skills">Skills</Link>
                 <a href="/my_resume.pdf" title="Resume" download>
-                  <ion-icon name="download" />R&#233;sum&#233;
+                  <ion-icon name="download" />
+                  R&#233;sum&#233;
                 </a>
                 <a
                   href="https://www.linkedin.com/in/tristan-smith45/"
