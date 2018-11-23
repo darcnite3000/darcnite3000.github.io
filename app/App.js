@@ -5,7 +5,7 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import Particles from 'particlesjs'
 import './app.css'
 import Work from './Work'
-import Freelance from './Freelance'
+import Freelance, { SPA, EDM, Splash, FullSite, Generic } from './Freelance'
 import About from './About'
 import Education from './Education'
 import Hobbies from './Hobbies'
@@ -37,13 +37,16 @@ class App extends Component {
                 <Link to="/work">Work</Link>
                 <Link to="/hobbies-interests">Interests</Link>
                 <Link to="/professional-skills">Skills</Link>
-
+                <a href="/my_resume.pdf" title="Resume" download>
+                  <ion-icon name="download" />
+                </a>
                 <a
                   href="https://www.linkedin.com/in/tristan-smith45/"
                   target="_blank"
                 >
                   <ion-icon name="logo-linkedin" />
                 </a>
+
                 <a href="https://github.com/darcnite3000/" target="_blank">
                   <ion-icon name="logo-github" />
                 </a>
@@ -53,6 +56,11 @@ class App extends Component {
               <CSSTransition key={location.key} timeout={200} classNames="fade">
                 <Switch location={location}>
                   <Route exact path="/" component={About} />
+                  <Route path="/freelance/fullsite" component={FullSite} />
+                  <Route path="/freelance/spa" component={SPA} />
+                  <Route path="/freelance/splash" component={Splash} />
+                  <Route path="/freelance/edm" component={EDM} />
+                  <Route path="/freelance/generic" component={Generic} />
                   <Route path="/freelance" component={Freelance} />
                   <Route path="/education" component={Education} />
                   <Route path="/work" component={Work} />
@@ -85,10 +93,6 @@ class App extends Component {
                 </a>
                 <a href="skype:tristan_smith45">
                   <ion-icon name="logo-skype" title="Skype" /> tristan_smith45
-                </a>
-                <a href="/my_resume.pdf" title="Resume" download>
-                  <ion-icon name="download" />
-                  R&#233;sum&#233;
                 </a>
               </div>
             </footer>
