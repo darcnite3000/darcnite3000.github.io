@@ -35,6 +35,10 @@ module.exports = {
         '/',
         '/education',
         '/freelance',
+        '/freelance/edm',
+        '/freelance/spa',
+        '/freelance/splash',
+        '/freelance/fullsite',
         '/work',
         '/hobbies-interests',
         '/professional-skills'
