@@ -13,49 +13,56 @@ const Freelance = () => {
       <h3>Freelance Pricing:</h3>
       <ul>
         <li>
-          <strong>Generic Work:</strong> <span>35/hr</span>{' '}
-          <Link to="/freelance/generic" class="more-link">
-            More
+          <Link to="/freelance/generic">
+            <strong>Generic Work:</strong>
+          </Link>{' '}
+          <span className="pricing">$35/hr</span>{' '}
+          <Link to="/freelance/generic">
+            <ion-icon name="information-circle-outline" />
           </Link>
         </li>
         <li>
-          <strong>EMDs:</strong>{' '}
-          <span>
-            250-350 per email<sup>1</sup>
-          </span>{' '}
-          <Link to="/freelance/edm" class="more-link">
-            More
+          <Link to="/freelance/edm">
+            <strong>EMDs:</strong>
+          </Link>{' '}
+          <span className="pricing">$250-350 per email</span>
+          <sup>1</sup>{' '}
+          <Link to="/freelance/edm">
+            <ion-icon name="information-circle-outline" />
           </Link>
         </li>
         <li>
-          <strong>Splash Page:</strong>{' '}
-          <span>
-            500+<sup>2</sup>
-          </span>{' '}
-          <Link to="/freelance/splash" class="more-link">
-            More
+          <Link to="/freelance/splash">
+            <strong>Splash Page:</strong>
+          </Link>{' '}
+          <span className="pricing">$500+</span>
+          <sup>2</sup>{' '}
+          <Link to="/freelance/splash">
+            <ion-icon name="information-circle-outline" />
           </Link>
         </li>
         <li>
-          <strong>SPA/Static Site:</strong>{' '}
-          <span>
-            1000+<sup>2</sup>
-          </span>{' '}
-          <Link to="/freelance/spa" class="more-link">
-            More
+          <Link to="/freelance/spa">
+            <strong>SPA/Static Site:</strong>
+          </Link>{' '}
+          <span className="pricing">$1000+</span>
+          <sup>2</sup>{' '}
+          <Link to="/freelance/spa">
+            <ion-icon name="information-circle-outline" />
           </Link>
         </li>
         <li>
-          <strong>CMS Based/Full Site:</strong>{' '}
-          <span>
-            2000+<sup>2</sup>
-          </span>{' '}
-          <Link to="/freelance/fullsite" class="more-link">
-            More
+          <Link to="/freelance/fullsite">
+            <strong>CMS Based/Full Site:</strong>
+          </Link>{' '}
+          <span className="pricing">$2000+</span>
+          <sup>2</sup>{' '}
+          <Link to="/freelance/fullsite">
+            <ion-icon name="information-circle-outline" />
           </Link>
         </li>
       </ul>
-      <aside>
+      <aside className="notes">
         <p>1. Price increases due to complexity of the email.</p>
         <p>
           2. Prices are negotiable, and depend on the complexity and
@@ -71,7 +78,7 @@ export const Generic = () => {
     <div id="freelance-generic">
       <h2>Freelance Work</h2>
       <h3>Generic Work</h3>
-      <p>$35 per hour</p>
+      <p className="pricing">$35 per hour</p>
       <p>
         I label generic work as any non-specific work such as site fixes and
         updates. This can be fixes or updates in most any Web Focused language.
@@ -86,7 +93,7 @@ export const EDM = () => {
     <div id="freelance-edms">
       <h2>Freelance Work</h2>
       <h3>Electronic Direct Mail (EDM)</h3>
-      <p>$250-350 per email</p>
+      <p className="pricing">$250-350 per email</p>
       <p>
         EDMs are html pages designed for use as emails. The emails I create
         should work in most email clients and are designed to be responsive.
@@ -106,7 +113,7 @@ export const Splash = () => {
     <div id="freelance-splash">
       <h2>Freelance Work</h2>
       <h3>Splash Pages</h3>
-      <p>$500+</p>
+      <p className="pricing">$500+</p>
       <p>
         Splash Pages, or single html pages are negotiable based on the amount of
         complexivity involved with the page, but is assumed to be less complex
@@ -123,7 +130,7 @@ export const SPA = () => {
     <div id="freelance-spa">
       <h2>Freelance Work</h2>
       <h3>SPA/Static Sites</h3>
-      <p>$1000+</p>
+      <p className="pricing">$1000+</p>
       <p>
         Single Page Application (SPA) and Static Sites are negotiable based on
         the complexity and number of pages involved.
@@ -142,7 +149,7 @@ export const FullSite = () => {
     <div id="freelance-full">
       <h2>Freelance Work</h2>
       <h3>CMS Based/Full Site</h3>
-      <p>$2000+</p>
+      <p className="pricing">$2000+</p>
       <p>
         CMS Based and Full Sites are negotiable based on the complexity and
         number of pages involved.
