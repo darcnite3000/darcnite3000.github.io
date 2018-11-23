@@ -27,8 +27,16 @@ class App extends Component {
           <div>
             <header>
               <h1>
-                <img className="face" src="/me.jpg" alt="Tristan Smith" />
-                <span>Tristan Smith</span>
+                <Link to="/" className="faceimg">
+                  <img className="face" src="/me.jpg" alt="Tristan Smith" />
+                  <img
+                    className="face knight"
+                    src="/knight.jpg"
+                    alt="darcnite3000"
+                  />
+                </Link>
+                <span className="name">Tristan Smith</span>
+                <span className="name knight">DarcNite3000</span>
               </h1>
               <nav>
                 <Link to="/">About</Link>

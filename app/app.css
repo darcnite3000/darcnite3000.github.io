@@ -109,6 +109,26 @@ footer {
   margin: 15px;
 }
 
+.knight {
+  display: none;
+}
+.faceimg {
+  &:hover {
+    & .face {
+      display: none;
+    }
+    & .knight {
+      display: block;
+    }
+    & ~ .name {
+      display: none;
+    }
+    & ~ .knight {
+      display: inline;
+    }
+  }
+}
+
 .fade-enter {
   opacity: 0.01;
   position: absolute;
