@@ -37,10 +37,7 @@ class App extends Component {
                 <Link to="/work">Work</Link>
                 <Link to="/hobbies-interests">Interests</Link>
                 <Link to="/professional-skills">Skills</Link>
-                <a href="/my_resume.pdf" title="Resume" download>
-                  <ion-icon name="download" />
-                  R&#233;sum&#233;
-                </a>
+
                 <a
                   href="https://www.linkedin.com/in/tristan-smith45/"
                   target="_blank"
@@ -88,6 +85,10 @@ class App extends Component {
                 </a>
                 <a href="skype:tristan_smith45">
                   <ion-icon name="logo-skype" title="Skype" /> tristan_smith45
+                </a>
+                <a href="/my_resume.pdf" title="Resume" download>
+                  <ion-icon name="download" />
+                  R&#233;sum&#233;
                 </a>
               </div>
             </footer>
