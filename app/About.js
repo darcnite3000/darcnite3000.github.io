@@ -13,6 +13,14 @@ const About = () => (
       I'm used to rapid development, and emergency fixes in getting ads, sites
       and tools into production.
     </p>
+    <h3>Portfolio</h3>
+    <ul className="gallery">
+      <li>
+        <a href="/port_work/email_01/email.html" target="_blank">
+          <img src="/port_work/email_01/email.png" alt="Responsive EDM" />
+        </a>
+      </li>
+    </ul>
   </div>
 )
 export default About
