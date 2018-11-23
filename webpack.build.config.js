@@ -34,6 +34,7 @@ module.exports = {
       routes: [
         '/',
         '/education',
+        '/freelance',
         '/work',
         '/hobbies-interests',
         '/professional-skills'

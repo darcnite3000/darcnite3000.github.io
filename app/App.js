@@ -5,6 +5,7 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import Particles from 'particlesjs'
 import './app.css'
 import Work from './Work'
+import Freelance from './Freelance'
 import About from './About'
 import Education from './Education'
 import Hobbies from './Hobbies'
@@ -31,6 +32,7 @@ class App extends Component {
               </h1>
               <nav>
                 <Link to="/">About Me</Link>
+                <Link to="/freelance">Freelance</Link>
                 <Link to="/education">Education</Link>
                 <Link to="/work">Work</Link>
                 <Link to="/hobbies-interests">Hobbies/Interests</Link>
@@ -53,6 +55,7 @@ class App extends Component {
               <CSSTransition key={location.key} timeout={200} classNames="fade">
                 <Switch location={location}>
                   <Route exact path="/" component={About} />
+                  <Route path="/freelance" component={Freelance} />
                   <Route path="/education" component={Education} />
                   <Route path="/work" component={Work} />
                   <Route path="/hobbies-interests" component={Hobbies} />
