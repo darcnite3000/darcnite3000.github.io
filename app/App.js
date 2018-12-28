@@ -31,7 +31,7 @@ class App extends Component {
                   <img className="face" src="/me.jpg" alt="Tristan Smith" />
                   <img
                     className="face knight"
-                    src="/knight.jpg"
+                    src="/helmut.svg"
                     alt="darcnite3000"
                   />
                 </Link>
