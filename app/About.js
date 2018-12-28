@@ -20,6 +20,11 @@ const About = () => (
           <img src="/port_work/email_01/email.png" alt="Responsive EDM" />
         </a>
       </li>
+      <li>
+        <a href="https://blendinsurancesolutions.com.au" target="_blank">
+          <img src="/port_work/blend.png" alt="Vue Single Page App" />
+        </a>
+      </li>
     </ul>
   </div>
 )

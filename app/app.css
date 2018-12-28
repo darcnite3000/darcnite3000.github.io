@@ -111,6 +111,10 @@ footer {
 
 .knight {
   display: none;
+  &.face {
+    background: #ffffff;
+    padding: 5px;
+  }
 }
 .faceimg {
   &:hover {
