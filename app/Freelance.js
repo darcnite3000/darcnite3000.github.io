@@ -25,7 +25,7 @@ const Freelance = () => {
           <Link to="/freelance/edm">
             <strong>EMDs:</strong>
           </Link>{' '}
-          <span className="pricing">$250-350 per email</span>
+          <span className="pricing">$250 per email</span>
           <sup>1</sup>{' '}
           <Link to="/freelance/edm">
             <ion-icon name="information-circle-outline" />
@@ -63,7 +63,10 @@ const Freelance = () => {
         </li>
       </ul>
       <aside className="notes">
-        <p>1. Price increases due to complexity of the email.</p>
+        <p>
+          1. Price increases due to complexity of the email, and modified
+          versions of the same email are charged at the hourly rate.
+        </p>
         <p>
           2. Prices are negotiable, and depend on the complexity and
           interactivity required for the site.
