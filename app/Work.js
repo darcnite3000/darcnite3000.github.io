@@ -10,6 +10,19 @@ const Work = () => (
         small Contract Work on web projects.
       </p>
     </div>
+    <div id="trip-a-deal">
+      <h3>TripADeal - 2018</h3>
+      <div id="trip-a-deal-synopsis">
+        <p>
+          Working with TripADeal was different than my previous work with
+          BazarStudios, it was nice to work in an enviroment with other people.
+        </p>
+        <p>
+          I was let go during the probationary period due to there not being
+          enough work to require a full time frontend developer.
+        </p>
+      </div>
+    </div>
     <div id="bazar-studios">
       <h3>Bazar Studios - 2006/18</h3>
       <div id="bazar-studios-synopsis">
